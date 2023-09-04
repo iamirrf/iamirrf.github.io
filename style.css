@@ -1,69 +1,65 @@
-/* Reset some default styles */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
 }
 
-/* Apply styles to the header */
 header {
-    background-color: #333; /* Change background color */
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
 }
 
-/* Style navigation links */
 nav ul {
     list-style-type: none;
     text-align: center;
-    background-color: #444; /* Change background color */
+    background-color: #444;
     padding: 10px;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px; /* Add some space between links */
+    margin-right: 20px;
 }
 
 nav a {
     text-decoration: none;
     color: white;
-    font-size: 18px; /* Change font size */
+    font-size: 18px;
 }
 
-/* Style the About Me section */
 #about {
     padding: 20px;
     text-align: center;
 }
 
 #about h2 {
-    font-size: 24px; /* Change font size */
+    font-size: 24px;
 }
 
 #about img {
     display: block;
-    margin: 20px auto; /* Center the image */
-    border: 2px solid #333; /* Add a border to the image */
-    border-radius: 50%; /* Make it a circle */
+    margin: 20px auto;
+    border: 2px solid #333;
+    border-radius: 50%;
 }
-/* Center the form and add styling */
+
 #contact {
-    text-align: center; /* Center-align the form and its contents */
+    text-align: center;
     padding: 20px;
 }
 
 #contact form {
-    max-width: 400px; /* Limit the form width */
-    margin: 0 auto; /* Center the form horizontally */
-    border: 1px solid #ccc; /* Add a border to the form */
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
     padding: 20px;
-    border-radius: 10px; /* Add rounded corners */
-    background-color: #f7f7f7; /* Background color for the form */
+    border-radius: 10px;
+    background-color: #f7f7f7;
 }
 
 #contact label {
-    display: block; /* Display labels as blocks for better spacing */
+    display: block;
     margin-bottom: 10px;
     font-weight: bold;
 }
@@ -79,11 +75,11 @@ nav a {
 }
 
 #contact textarea {
-    height: 100px; /* Adjust the height of the message textarea */
+    height: 100px;
 }
 
 #contact input[type="submit"] {
-    background-color: #333; /* Background color for the submit button */
+    background-color: #333;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -92,7 +88,5 @@ nav a {
 }
 
 #contact input[type="submit"]:hover {
-    background-color: #555; /* Change button color on hover */
+    background-color: #555;
 }
-
-
