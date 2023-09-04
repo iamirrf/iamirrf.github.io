@@ -47,3 +47,52 @@ nav a {
     border: 2px solid #333; /* Add a border to the image */
     border-radius: 50%; /* Make it a circle */
 }
+/* Center the form and add styling */
+#contact {
+    text-align: center; /* Center-align the form and its contents */
+    padding: 20px;
+}
+
+#contact form {
+    max-width: 400px; /* Limit the form width */
+    margin: 0 auto; /* Center the form horizontally */
+    border: 1px solid #ccc; /* Add a border to the form */
+    padding: 20px;
+    border-radius: 10px; /* Add rounded corners */
+    background-color: #f7f7f7; /* Background color for the form */
+}
+
+#contact label {
+    display: block; /* Display labels as blocks for better spacing */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact textarea {
+    height: 100px; /* Adjust the height of the message textarea */
+}
+
+#contact input[type="submit"] {
+    background-color: #333; /* Background color for the submit button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #555; /* Change button color on hover */
+}
+
+
