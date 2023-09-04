@@ -4,49 +4,46 @@ body, h1, h2, p {
     padding: 0;
 }
 
-/* Style the header */
+/* Apply styles to the header */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #333; /* Change background color */
+    color: white;
     text-align: center;
     padding: 20px;
 }
 
-/* Style the main content sections */
-section {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f8f8f8;
-}
-
-/* Style the image */
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px auto;
-    border-radius: 5px;
-}
-
-/* Style the links list */
-ul {
+/* Style navigation links */
+nav ul {
     list-style-type: none;
+    text-align: center;
+    background-color: #444; /* Change background color */
+    padding: 10px;
 }
 
-/* Style the links in the list */
-li a {
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Add some space between links */
+}
+
+nav a {
     text-decoration: none;
-    color: #0077b5; /* LinkedIn blue color */
+    color: white;
+    font-size: 18px; /* Change font size */
 }
 
-/* Change font size for headings */
-h1 {
-    font-size: 24px;
+/* Style the About Me section */
+#about {
+    padding: 20px;
+    text-align: center;
 }
 
-h2 {
-    font-size: 20px;
+#about h2 {
+    font-size: 24px; /* Change font size */
 }
 
+#about img {
+    display: block;
+    margin: 20px auto; /* Center the image */
+    border: 2px solid #333; /* Add a border to the image */
+    border-radius: 50%; /* Make it a circle */
+}
