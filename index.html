@@ -9,8 +9,11 @@
         body {
             font-family: "Times New Roman", Times, serif;
         }
-        header h1, header h3 {
-            font-size: 2em;
+        header h1 {
+            font-size: 3em;
+        }
+        header h3 {
+            font-size: 1.5em;
         }
         section {
             border: 1px solid #000;
@@ -31,7 +34,20 @@
         <h1>AMIR AREF</h1>
         <h3>AI & ML Engineering</h3>
     </header>
-    <!-- ... (the rest of your existing HTML) ... -->
+    <nav>
+        <ul>
+            <li><a href="resume.pdf">Resume</a></li>
+            <li><a href="https://github.com/iamirrf">GitHub</a></li>
+            <li><a href="https://medium.com/@iamirrf">Blog</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am actively dedicated to advancing my knowledge in the fields of machine learning and AI engineering. My pursuit of knowledge is characterized by a growth mindset, a remarkable ability to adapt to new technologies, and an unquenchable thirst for learning. What truly ignites my passion within this field is the convergence of business and artificial intelligence. Consequently, I have chosen to complement my computer science major with a minor in Business Administration, forging a holistic understanding of both the technical and strategic facets of this domain. Python is my programming language of choice, and I have amassed practical experience in utilizing various data and machine learning libraries, including TensorFlow, Scikit-learn, NumPy, and Pandas, among others. Recognizing the paramount importance of effective communication in both personal and professional spheres, I have conscientiously pursued a minor in Communication, in addition to undertaking various personal initiatives aimed at honing my social skills. This commitment reflects my belief that the ability to articulate ideas clearly is pivotal in the realm of technology-driven innovation. Beyond academics and professional aspirations, I nurture my creative side through the art of photography, which serves as an outlet for my imaginative faculties. Moreover, I am an ardent chess enthusiast, finding in the game an arena for strategic thinking and intellectual challenge.
+        </p>
+        <img src="OS-Portfolio-Picture.png" alt="Amir Aref's Picture" width="640" height="640">
+    </section>
     <section id="blogs">
         <h2>Blog Posts</h2>
         <ul>
@@ -52,8 +68,69 @@
                 <li>Assist professors with organizing class materials for effective lecture delivery.</li>
             </ul>
         </div>
-        <!-- ... (repeat the above structure for each role, updating the details accordingly) ... -->
+        <div>
+            <h3>Computer Science Teaching Assistant</h3>
+            <p>Berea College · Part-time</p>
+            <p>Jan 2023 - Sep 2023 - Hybrid</p>
+            <ul>
+                <li>Provide hands-on support to 20+ students with SQL Programming Language.</li>
+                <li>Deliver detailed technical and practical feedback on database management.</li>
+                <li>Guide students in effectively developing positive team-based learning experiences.</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Photographer</h3>
+            <p>Berea College · Part-time</p>
+            <p>May 2022 - Present - Hybrid</p>
+            <ul>
+                <li>Conduct photoshoots for individuals featured in Berea College magazine.</li>
+                <li>Train and mentor students to produce high-quality, marketable content.</li>
+                <li>Produce visual content that represents Berea College's mission and culture.</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Research Methodologist</h3>
+            <p>Berea College · Full-time</p>
+            <p>May 2023 - July 2023 · On-site</p>
+            <ul>
+                <li>Employed PRAW Python Library for extracting 10,000+ posts from Reddit's API.</li>
+                <li>Performed thorough data cleaning and organization for effective research analysis.</li>
+                <li>Utilized ML models and LIWC-22 for semantic and thematic data analysis.</li>
+                <li>Authored an approved draft of the research methodology segment.</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Computer Science Teaching Assistant</h3>
+            <p>Berea College · Part-time</p>
+            <p>Aug 2023 - Present · Hybrid</p>
+            <ul>
+                <li>Supporting 20+ students in R programming, code debugging, and data analysis.</li>
+                <li>Actively mentor data analysis projects, fostering robust analytical skills.</li>
+                <li>Delivering concise lectures enhancing statistical and analytical thinking.</li>
+            </ul>
+        </div>
     </section>
-    <!-- ... (the rest of your existing HTML) ... -->
+ <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            Please feel free to contact me via email or the contact form below. I'm always eager to connect and discuss opportunities or answer any questions you may have.
+        </p>
+        <form action="mailto:arefa@berea.edu" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <section>
+        <dialog open>
+            <p>Have a good day.</p>
+            <button id="close-dialog">Thanks</button>
+        </dialog>
+        <p><abbr title="Hypertext Markup Language">HTML</abbr> is a markup language used for creating web pages.</p>
+    </section>
 </body>
 </html>
