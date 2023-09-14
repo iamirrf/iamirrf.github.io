@@ -43,10 +43,12 @@ nav a {
 #about, #education, #experience {
     padding: 20px;
     text-align: center;
+    font-size: 48px;
+
 }
 
 #about h2, #education h2, #experience h2 {
-    font-size: 24px;
+    font-size: 48px;
 }
 
 #contact {
@@ -95,3 +97,5 @@ nav a {
 #contact input[type="submit"]:hover {
     background-color: #555;
 }
+
+
