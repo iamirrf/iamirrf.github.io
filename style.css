@@ -3,11 +3,14 @@ body, h1, h2, p {
     padding: 0;
 }
 
+header, nav, section {
+    padding: 20px;
+}
+
 header {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px;
 }
 
 header div {
@@ -20,38 +23,43 @@ header div {
 
 nav {
     background-color: #444;
-    padding: 10px;
     text-align: center;
 }
 
 nav a {
     text-decoration: none;
     color: white;
-    font-size: 14.4px;
+    font-size: 30px;
     margin: 0 20px;
 }
 
-section {
-    padding: 20px;
-    text-align: center;
-    font-size: 16px;
+section:nth-child(odd) {
+    background-color: #fff;
+    color: #000;
+}
+
+section:nth-child(even) {
+    background-color: #000;
+    color: #fff;
 }
 
 section h2 {
-    font-size: 16px;
-}
-
-section h3 {
-    font-size: 16px;
-}
-
-section div {
+    font-size: 48px;
     margin-bottom: 20px;
+}
+
+section p, section a, section div {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+section#experience div div {
+    list-style-type: disc;
+    margin-left: 40px;
 }
 
 #contact {
     text-align: center;
-    padding: 20px;
 }
 
 #contact form {
