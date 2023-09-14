@@ -18,37 +18,35 @@ header div {
     align-items: center;
 }
 
-header h1 {
-    margin: 0 20px;
-}
-
-nav ul {
-    list-style-type: none;
-    text-align: center;
+nav {
     background-color: #444;
     padding: 10px;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+    text-align: center;
 }
 
 nav a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    margin: 0 20px;
 }
 
-#about, #education, #experience {
+section {
     padding: 20px;
     text-align: center;
-    font-size: 48px;
-
+    font-size: 80px;
 }
 
-#about h2, #education h2, #experience h2 {
-    font-size: 48px;
+section h2 {
+    font-size: 80px;
+}
+
+section h3 {
+    font-size: 80px;
+}
+
+section div {
+    margin-bottom: 20px;
 }
 
 #contact {
@@ -97,5 +95,3 @@ nav a {
 #contact input[type="submit"]:hover {
     background-color: #555;
 }
-
-
